@@ -63,8 +63,7 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Our Product</a></li>
-
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Whole Sale</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -212,8 +211,8 @@
 
         <div class="text-center">
           <h3>Royal Splits is the crown jewel of easy-to-access and user-friendly smoking accessories.</h3>
-          <p> SLEEK, COMPACT, SIMPLE IN DESIGN AND CONCEPT, THE CUTTING-EDGE NECESSITY FOR LIGHTING UP.</p>
-          <a class="cta-btn" href="#">Buy Now</a>
+          <p> Want to place a Bulk order? </p>
+          <a class="cta-btn" href="#contact">Order Now</a>
         </div>
 
       </div>
@@ -225,59 +224,26 @@
       <div class="container">
 
         <div class="section-title">
-          <span>Contact Us</span>
+          <span>Whole Sale Order</span>
           <h2> ‎</h2>
-          <p>‎ </p>
+          <p>To place a bulk order, fill out the form below and we will reach you ASAP.‎ </p>
         </div>
-
-        <div class="row" data-aos="fade-up">
+        <center>
           <div class="col-lg-6">
-            <div class="info-box mb-4">
-              <i class="bx bx-map"></i>
-              <h3>Our Address</h3>
-              <p>A108 Adam Street, New York, NY 535022</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="info-box  mb-4">
-              <i class="bx bx-envelope"></i>
-              <h3>Email Us</h3>
-              <p>csales@RoyalSplits.com</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="info-box  mb-4">
-              <i class="bx bx-phone-call"></i>
-              <h3>Call Us</h3>
-              <p>+1 5589 55488 55</p>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="row" data-aos="fade-up">
-
-          <div class="col-lg-6 ">
-            <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
-          </div>
-
-          <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="https://formspree.io/f/xrgrqpvk" method="post" role="form" class="php-email-form" id="my-form">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Company Name" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
                   <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <input type="text" class="form-control" name="Phone number" id="subject" placeholder="Phone Number" title="Enter a valid phone number" pattern="[1-9]{1}[0-9]{9}" required>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="Order Here" rows="5" placeholder="Place Your Order here" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
@@ -287,9 +253,9 @@
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
           </div>
-
+          <div id="status"></div>
+        </center>
         </div>
-
       </div>
     </section><!-- End Contact Section -->
 
@@ -380,6 +346,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/form.js"></script>
 
 </body>
 

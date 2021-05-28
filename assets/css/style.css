@@ -520,7 +520,7 @@ section {
   left: 0;
   right: 0;
   z-index: 1;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 52px;
   text-transform: uppercase;
   line-height: 0;
@@ -1105,6 +1105,37 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+#status{
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+#status.success{
+  background-color: #18d26e; 
+  animation: status 4s ease delay forwards; 
+}
+#status.error{
+  background-color: rgb(223, 61, 61);
+  color:white;
+  animation: status 4s ease forwards;
+}
+@keyframes status {
+  0%{
+    opacity: 1;
+    pointer-events: all;
+  }
+  90%{
+    opacity: 1;
+    pointer-events: all;
+  }
+  100%{
+    opacity: 0;
+    pointer-events: none;
+  }
+}
 .contact .info-box {
   color: #e9dddd;
   text-align: center;
