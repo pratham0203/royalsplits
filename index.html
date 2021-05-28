@@ -226,11 +226,11 @@
         <div class="section-title">
           <span>Whole Sale Order</span>
           <h2> ‎</h2>
-          <p>To place a bulk order, fill out the form below and we will reach you ASAP.‎ </p>
+          <p>To place a bulk orders, fill out the form below and we will reach you ASAP.‎ </p>
         </div>
         <center>
           <div class="col-lg-6">
-            <form action="https://formspree.io/f/xrgrqpvk" method="post" role="form" class="php-email-form" id="my-form">
+            <form action="https://formsubmit.co/57c939708b5a1d947701dc415b646053" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Company Name" required>
@@ -240,11 +240,24 @@
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="Phone number" id="subject" placeholder="Phone Number" title="Enter a valid phone number" pattern="[1-9]{1}[0-9]{9}" required>
+                <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone Number" title="Enter a valid phone number" pattern="[1-9]{1}[0-9]{9}" required>
+               </div>
+               <div class="form-group mt-3">
+              <select id="items" class="form-control" name="Products" required> 
+                <option value="item-0" disabled selected hidden>Choose Product</option>
+                <option value="Solid Neon Adaptor">Solid Neon Adaptor</option>
+                <option value="Solid Neon Blunt Box">Solid Neon Blunt Box</option>
+                <option value="Royal Splits Collection">Royal Splits Collection</option>
+                <option value="Special Order">Special Order</option>
+                <input type="number" class="form-control" name="Quantity" id="quantity" placeholder="Quantity" required>
+               </div>
+              </select>
+                <div class="form-group mt-3">
+              <textarea class="form-control" name="msg" rows="5" placeholder="msg" id="msg" required></textarea>
               </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="Order Here" rows="5" placeholder="Place Your Order here" required></textarea>
-              </div>
+              <input type="hidden" name="_honey" style="display:none">
+              <input type="hidden" name="_autoresponse" value="Thank you for getting with us. We will get in touch with you soon.">
+              <input type="hidden" name="_template" value="table">    
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
@@ -253,7 +266,6 @@
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
           </div>
-          <div id="status"></div>
         </center>
         </div>
       </div>
@@ -341,13 +353,10 @@
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  <script src="assets/js/form.js"></script>
-
 </body>
-
 </html>
