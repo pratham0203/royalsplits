@@ -81,8 +81,7 @@ select option{
 body {
   font-family: "Open Sans", sans-serif;
   color: #fff;
-  background-image:linear-gradient(#000,#181c1d
-  ) 
+  background-image:linear-gradient(#000,#181c1d)
 }
 
 a {
@@ -484,7 +483,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height:100vh;
-  background: url("../img/try.gif") top center;
+  background: url("../img/main.gif") top center;
   background-size: cover;
   position: relative;
 }
@@ -715,6 +714,11 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services {
+  background: url("../img/try.gif") fixed center;
+  background-size: cover;
+  padding: 120px 0;
+}
 .services .icon-box {
   text-align: center;
   justify-content: space-between;
@@ -801,7 +805,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center;
   background-size: cover;
   padding: 120px 0;
 }
@@ -1184,7 +1188,7 @@ section {
   text-align: center;
   align-items: center;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
-  padding: 20px 0 30px 0;
+  padding: 10px 0 10px 0;
 }
 
 .contact .info-box i {
@@ -1210,8 +1214,9 @@ section {
 }
 
 .contact .php-email-form {
+  width: 200%;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
-  padding: 30px;
+  padding: 20px;
 }
 
 .contact .php-email-form .error-message {
@@ -1257,6 +1262,7 @@ section {
 }
 
 .contact .php-email-form input, .contact .php-email-form textarea {
+  margin-top: 10px;
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
@@ -1267,6 +1273,7 @@ section {
 }
 
 .contact .php-email-form input {
+  margin-top: 10px;
   padding: 10px 15px;
 }
 
