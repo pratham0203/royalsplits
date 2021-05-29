@@ -1,4 +1,3 @@
-
 document.getElementById('fourth').style.display='none'
 document.getElementById('five').style.display='none'
 document.getElementById('six').style.display='none'
@@ -8,6 +7,107 @@ document.getElementById('nine').style.display='none'
 document.getElementById('ten').style.display='none'
 document.getElementById('ele').style.display='none'
 document.getElementById('twe').style.display='none'
+document.getElementById('a').style.display='none'
+document.getElementById('b').style.display='none'
+document.getElementById('c').style.display='none'
+document.getElementById('d').style.display='none'
+document.getElementById('e').style.display='none'
+document.getElementById('f').style.display='none'
+document.getElementById('g').style.display='none'
+document.getElementById('h').style.display='none'
+
+
+const myFunction21 = () => {
+  document.getElementById("a").style.display ='block';
+  document.getElementById("b").style.display ='none'
+  document.getElementById("c").style.display ='none'
+  document.getElementById('d').style.display='none'
+  document.getElementById('mainphoto1').style.display='none'
+  document.getElementById('e').style.display='none'
+  document.getElementById('f').style.display='none'
+  document.getElementById('g').style.display='none'
+  document.getElementById('h').style.display='none'
+}
+
+const myFunction22 = () => {
+  document.getElementById("b").style.display ='block'
+  document.getElementById("a").style.display ='none'
+  document.getElementById("c").style.display ='none'
+  document.getElementById('d').style.display='none'
+  document.getElementById('mainphoto1').style.display='none'
+  document.getElementById('e').style.display='none'
+  document.getElementById('f').style.display='none'
+  document.getElementById('g').style.display='none'
+  document.getElementById('h').style.display='none'
+}
+
+const myFunction23 = () => {
+  document.getElementById("c").style.display ='block'
+  document.getElementById("a").style.display ='none'
+  document.getElementById("b").style.display ='none'
+  document.getElementById('d').style.display='none'
+  document.getElementById('mainphoto1').style.display='none'
+  document.getElementById('e').style.display='none'
+  document.getElementById('f').style.display='none'
+  document.getElementById('g').style.display='none'
+  document.getElementById('h').style.display='none'
+}
+const myFunction24 = () => {
+  document.getElementById("c").style.display ='none'
+  document.getElementById("a").style.display ='none'
+  document.getElementById("b").style.display ='none'
+  document.getElementById('d').style.display='block'
+  document.getElementById('mainphoto1').style.display='none'
+  document.getElementById('e').style.display='none'
+  document.getElementById('f').style.display='none'
+  document.getElementById('g').style.display='none'
+  document.getElementById('h').style.display='none'
+}
+const myFunction25 = () => {
+  document.getElementById("c").style.display ='none'
+  document.getElementById("a").style.display ='none'
+  document.getElementById("b").style.display ='none'
+  document.getElementById('d').style.display='none'
+  document.getElementById('mainphoto1').style.display='none'
+  document.getElementById('e').style.display='block'
+  document.getElementById('f').style.display='none'
+  document.getElementById('g').style.display='none'
+  document.getElementById('h').style.display='none'
+}
+const myFunction26 = () => {
+  document.getElementById("c").style.display ='none'
+  document.getElementById("a").style.display ='none'
+  document.getElementById("b").style.display ='none'
+  document.getElementById('d').style.display='none'
+  document.getElementById('mainphoto1').style.display='none'
+  document.getElementById('e').style.display='none'
+  document.getElementById('f').style.display='block'
+  document.getElementById('g').style.display='none'
+  document.getElementById('h').style.display='none'
+}
+const myFunction27 = () => {
+  document.getElementById("c").style.display ='none'
+  document.getElementById("a").style.display ='none'
+  document.getElementById("b").style.display ='none'
+  document.getElementById('d').style.display='none'
+  document.getElementById('mainphoto1').style.display='none'
+  document.getElementById('e').style.display='none'
+  document.getElementById('f').style.display='none'
+  document.getElementById('g').style.display='block'
+  document.getElementById('h').style.display='none'
+}
+const myFunction28 = () => {
+  document.getElementById("c").style.display ='none'
+  document.getElementById("a").style.display ='none'
+  document.getElementById("b").style.display ='none'
+  document.getElementById('d').style.display='none'
+  document.getElementById('mainphoto1').style.display='none'
+  document.getElementById('e').style.display='none'
+  document.getElementById('f').style.display='none'
+  document.getElementById('g').style.display='none'
+  document.getElementById('h').style.display='block'
+}
+
 const myFunction = () => {
     document.getElementById("first").style.display ='block';
     document.getElementById("second").style.display ='none'
