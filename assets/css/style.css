@@ -1262,10 +1262,11 @@ section {
 }
 
 .contact .php-email-form input, .contact .php-email-form textarea {
-  margin-top: 10px;
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 .contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
@@ -1274,6 +1275,7 @@ section {
 
 .contact .php-email-form input {
   margin-top: 10px;
+  margin-bottom: 5px;
   padding: 10px 15px;
 }
 
@@ -1502,5 +1504,12 @@ section {
 @media (max-width: 575px) {
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
+  }
+}
+@media (max-width: 575px) {
+  .contact .php-email-form {
+    padding: 0px;
+    width: 100%;
+    display: inline-block;
   }
 }

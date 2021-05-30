@@ -59,35 +59,41 @@
                 <div class="col-lg-6">
                   <form action="https://formsubmit.co/57c939708b5a1d947701dc415b646053" method="post" role="form" class="php-email-form">
                     <div class="form-group mt-3">
+                      <label for="name">Company Name:</label>
                         <input type="text" name="name" class="form-control" id="name" placeholder="Company Name" required>
                       </div>
                     <div class="row">
                       <div class="col-md-6 form-group">
+                        <label for="Fname">Contact Person First Name:</label>
                         <input type="text" name="Fname" class="form-control" id="Fname" placeholder="Contact Person First Name" required>
                       </div>
                       <div class="col-md-6 form-group mt-3 mt-md-0">
+                        <label for="LName">Contact Person Last Name:</label>
                         <input type="text" name="Lname" class="form-control" id="Lname" placeholder="Contact Person Last Name" required>
-                        <!-- <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required> -->
                       </div>
                     </div>
                     <div class="row">
                         <div class="col-md-6 form-group">
+                          <label for="title">Title in Company:</label>
                           <input type="text" name="title" class="form-control" id="title" placeholder="Title in Company" required>
                         </div>
                         <div class="col-md-6 form-group mt-3 mt-md-0">
+                          <label for="email">Email:</label>
                           <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
                         </div>
                       </div>
                     <div class="form-group mt-3">
+                      <label for="phone">Contact Number:</label>
                       <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone Number" title="Enter a valid phone number" pattern="[1-9]{1}[0-9]{9}" required>
                     </div>
                     <div class="form-group mt-3">
+                      <label for="fax">Fax Number</label>
                         <input type="text" class="form-control" name="fax" id="fax" placeholder="Fax Number" title="Enter a valid phone number" pattern="[1-9]{1}[0-9]{9}" required>
                       </div>
   
                     <div class="form-group mt-3">
-                    <select id="items" class="form-control" name="Products" required> 
-                      <option value="item-0" disabled selected hidden>Choose Product</option>
+                      <label for="items">Choose Product:</label>
+                    <select id="items" class="form-control" name="Products" required>
                       <option value="Solid Neon Adaptor">Solid Neon Adaptor</option>
                       <option value="Solid Neon Blunt Box">Solid Neon Blunt Box</option>
                       <option value="Royal Splits Collection">Royal Splits Collection</option>
@@ -96,76 +102,94 @@
                     </div>
                     </select>
                       <div class="form-group mt-3">
+                    <label for="Address">Address:</label>
                     <textarea class="form-control" name="msg" rows="2" placeholder="Address" id="Address" required></textarea>
                     </div>
                     <div class="row">
                         <div class="col-md-6 form-group">
+                          <label for="city">City:</label>
                           <input type="text" name="city" class="form-control" id="city" placeholder="City" required>
                         </div>
                         <div class="col-md-6 form-group mt-3 mt-md-0">
+                          <label for="state">State:</label>
                           <input type="text" class="form-control" name="State" id="state" placeholder="State" required>
                         </div>
                       </div>
                       <div class="row">
                         <div class="col-md-6 form-group">
+                          <label for="zip">ZIP:</label>
                           <input type="text" name="zip" class="form-control" id="zip" placeholder="Zip" required>
                         </div>
                         <div class="col-md-6 form-group mt-3 mt-md-0">
+                          <label for="country">Country:</label>
                           <input type="text" class="form-control" name="country" id="country" placeholder="Country" required>
                         </div>
                       </div >
                       <div class="row">
                         <div class="col-md-6 form-group">
+                          <label for="tax">Federal Tax ID:</label>
                           <input type="text" name="tax" class="form-control" id="tax" placeholder="Federal Tax ID" required>
                         </div>
                         <div class="col-md-6 form-group mt-3 mt-md-0">
+                          <label for="resell">Reseller's License Number:</label>
                           <input type="text" class="form-control" name="resell" id="resell" placeholder="Reseller's License No." required>
                         </div>
                       </div>
                       <div class="row">
                         <div class="col-md-6 form-group">
+                          <label for="zip">ZIP:</label>
                           <input type="text" name="zip" class="form-control" id="zip" placeholder="Zip" required>
                         </div>
                         <div class="col-md-6 form-group mt-3 mt-md-0">
-                          <input type="text" class="form-control" name="country" id="country" placeholder="Country" required>
+                          <label for="country2">Country:</label>
+                          <input type="text" class="form-control" name="country" id="country2" placeholder="Country" required>
                         </div>
                       </div>
                       <div class="row">
                         <div class="col-md-6 form-group">
+                          <label for="insta">Instagram ID:</label>
                           <input type="text" name="insta" class="form-control" id="insta" placeholder="Instagram ID" required>
                         </div>
                         <div class="col-md-6 form-group mt-3 mt-md-0">
+                          <label for="facebbok">Facebook ID:</label>
                             <input type="text" name="facebook" class="form-control" id="facebook" placeholder="FaceBook ID" required>
                         </div>
                         <div class="form-group mt-3">
-                            <select id="items" class="form-control" name="Products" required> 
-                              <option value="item-0" disabled selected hidden>Preferred Shipment <Address></Address></option>
+                          <label for="items2">Preferred Shipping Address</label>
+                            <select id="items2" class="form-control" name="Products" required> 
                               <option value="Solid Neon Adaptor">Residential Address</option>
                               <option value="Solid Neon Blunt Box">Commercial Address</option>
                             </div>
                             <div class="form-group mt-3">
-                                <textarea class="form-control" name="msg1" rows="2" placeholder="Address" id="Address" required></textarea>
+                              <label for="ms2">Address:</label>
+                             <textarea class="form-control" name="ms2" rows="2" placeholder="Address" id="ms2" required></textarea>
                             </div>   
                             <div class="col-md-6 form-group">
+                              <label for="city1">City:</label>
                                 <input type="text" name="city1" class="form-control" id="city1" placeholder="City" required>
                               </div>
                               <div class="col-md-6 form-group mt-3 mt-md-0">
+                                <label for="state1">State:</label>
                                 <input type="text" class="form-control" name="State1" id="state1" placeholder="State" required>
                               </div>
                             </div>
                             <div class="row">
                               <div class="col-md-6 form-group">
-                                <input type="text" name="zip1" class="form-control" id="zip1" placeholder="Zip1" required>
+                                <label for="zip1">ZIP:</label>
+                                <input type="text" name="zip1" class="form-control" id="zip1" placeholder="Zip" required>
                               </div>
                               <div class="col-md-6 form-group mt-3 mt-md-0">
+                                <label for="country1">Country:</label>
                                 <input type="text" class="form-control" name="country1" id="country1" placeholder="Country" required>
                               </div>     
                               <div class="row"></div>
                                 <div class="form-group mt-3">
-                                    <input type="text" name="name" class="form-control" id="name" placeholder="Company Name" required>
+                                  <label for="name11">Contact Person Name</label>
+                                    <input type="text" name="name" class="form-control" id="name11" placeholder="Contact Person Name" required>
                                   </div>
                                 <div class="form-group mt-3">
-                                    <input type="text" class="form-control" name="phone1" id="phone1" placeholder="Phone Number" title="Enter a valid phone number" pattern="[1-9]{1}[0-9]{9}" required>
+                                  <label for="phone11">Contact Number:</label>
+                                    <input type="text" class="form-control" name="phone11" id="phone1" placeholder="Phone Number" title="Enter a valid phone number" pattern="[1-9]{1}[0-9]{9}" required>
                                 </div>
                                             
                                                
