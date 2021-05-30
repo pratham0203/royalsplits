@@ -277,10 +277,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
 }
 
+
 .navbar ul {
   margin: 0;
   padding: 0;
-  display: flex;
+  display:flex;
   list-style: none;
   align-items: center;
 }
@@ -289,7 +290,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-.navbar > ul > li {
+.navbar  li > ul {
   margin-left: 5px;
 }
 
@@ -435,7 +436,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   color: #191919;
 }
-
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: #cc1616;
   background: none;
@@ -567,17 +567,18 @@ section {
 
 .section-title {
   text-align: center;
+  margin-top: 10%;
   padding: 30px 0;
   position: relative;
 }
 
 .section-title h2 {
-  font-size: 32px;
-  font-weight: 700;
+  font-size: 100px;
+  font-weight: 600;
   text-transform: uppercase;
-  margin-bottom: 20px;
+
   padding-bottom: 0;
-  color: #191919;
+  color: #cfcece;
   position: relative;
   z-index: 2;
 }
@@ -717,7 +718,6 @@ section {
 .services {
   background: url("../img/try.gif") fixed center;
   background-size: cover;
-  padding: 120px 0;
 }
 .services .icon-box {
   text-align: center;
@@ -782,7 +782,7 @@ section {
 .services .icon-box:hover {
   background: #cc1616;
   border-color: #cc1616;
-  padding: 70px 20px 90px 20px;
+  padding: 30px 20px 30px 20px;
 }
 
 .services .icon-box:hover .icon {
@@ -1512,4 +1512,9 @@ section {
     width: 100%;
     display: inline-block;
   }
+}
+@media (max-width: 575px) {
+  img#logomain {
+ display: none;
+}
 }
