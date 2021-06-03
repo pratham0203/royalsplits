@@ -14,8 +14,8 @@
 .button {
   opacity:0.85;
   background-color: #27922b; /* Green */
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
   border-color: #ffffff;
   text-align: center;
   margin: 2px 2px;
@@ -51,7 +51,7 @@
   margin-top: 10%;
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 10px;
   letter-spacing: 0.5px;
   display:inline-block;
   padding: 10px 18px;
@@ -572,10 +572,10 @@ section {
 }
 
 .section-title h2 {
-  font-size: 100px;
+  font-size: 50px;
   font-weight: 600;
   text-transform: uppercase;
-
+  margin-bottom: 100px;
   padding-bottom: 0;
   color: #cfcece;
   position: relative;
@@ -687,7 +687,7 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients {
-  background: #f2f2f2;
+  background: #000000;
   padding: 15px 0;
   text-align: center;
 }
@@ -714,14 +714,49 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.nine h1 {
+  margin-top: 30px;
+  text-align:center; font-size:50px; 
+  text-transform:uppercase;
+  letter-spacing:1px;
+  font-family:"Playfair Display", 
+  serif; font-weight:400;
+  color:rgb(255, 255, 255);
+}
+.nine h1 span {
+  margin-top: 5px;
+  font-size:15px; 
+  color:rgb(255, 255, 255); 
+  word-spacing:1px; font-weight:normal; 
+  letter-spacing:2px;
+  text-transform: uppercase; font-family:"Raleway", sans-serif; font-weight:500;
+
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-template-rows: 27px 0;
+  grid-gap: 20px;
+  align-items: center;
+}
+
+.nine h1 span:after,.nine h1 span:before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    height: 5px;
+  background-color:#f8f8f8;
+}
+
 .services {
   background: url("../img/try.gif") fixed center;
   background-size: cover;
 }
 .services .icon-box {
   text-align: center;
-  margin-top: 5%;
+  margin-top: 10%;
   padding: 15px 20px;
+
+  width: 300px;
   transition: all ease-in-out 0.4s;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
