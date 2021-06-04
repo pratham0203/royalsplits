@@ -8,15 +8,46 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+#first, #second, #third, #fourth {
+  display: none
+}
+#first2, #second2, #third2, #fourth2 {
+  display: none
+}
+#first11, #second12,#third13{
+  display: none
+}
+#first31{
+  display: none
+}
+#first331, #second332,#third333, #fourth334, #five335, #six336, #sev337{
+  display: none
+}
+
+
+button {
+  outline: none;
+}
+.flow{
+  background-color: Transparent; 
+  border: none; 
+  cursor:pointer; 
+  overflow: hidden; 
+  outline:none;
+}
+.centerbox{
+  margin-left: 18%;
+  width: 100%;
+}
 #services .btn-buynow {
   font-family: "Raleway", sans-serif;
   margin-top: 10%;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.5px;
   display:inline-block;
-  padding: 10px 16px;
+  padding: 10px 30px;
   transition: 0.5s;
   border: 2px solid rgb(250, 250, 250);
   color: #fff;
@@ -354,7 +385,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 991px) {
   .mobile-nav-toggle {
-    display: block;
+    display: inline-block;
   }
   .navbar ul {
     display: none;
@@ -726,14 +757,14 @@ section {
   padding: 5px 5px;
 }
 .thumb img{
-  border: 2px solid #ddd; 
+  padding: 1px;
   border-radius: 4px; 
-  height: 50px; 
-  width: 50px;
+  height: 60px; 
+  width: 60px;
 }
 .thumb img:hover {
   border: 2px solid rgb(94, 79, 224);
-  box-shadow: 0 0 2px 1px rgb(1, 4, 5);
+  box-shadow: 0 0 2px 1px  rgb(94, 79, 224);;
 }
 
 .services .icon-box .icon {
