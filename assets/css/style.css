@@ -39,6 +39,28 @@ button {
   margin-left: 18%;
   width: 100%;
 }
+.productfree{
+ width: 500px;
+}
+
+@media (max-width: 768px) {
+  .centerbox {
+  margin-left: 5%;
+  width: 90%;
+  }
+}
+@media (max-width: 575px) {
+  .centerboxmain{
+    float: right;
+    margin-right: 1%;
+    width: 350px;
+  }
+}
+@media (max-width: 768px) {
+  .productfree{
+    width: 100%;
+  }
+}
 #services .btn-buynow {
   font-family: "Raleway", sans-serif;
   margin-top: 10%;
@@ -595,6 +617,10 @@ section {
 }
 
 @media (max-width: 575px) {
+  .service .nine{
+   font-size: 18px;
+
+  }
   .section-title h2 {
     font-size: 28px;
     margin-bottom: 15px;
