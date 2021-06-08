@@ -93,7 +93,8 @@ select option{
   margin-top: 15px;
 }
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Merienda', cursive;
+  text-transform: capitalize;
   color: #fff;
   background-image:linear-gradient(#000,#181c1d)
 }
@@ -310,10 +311,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar a {
   display: flex;
+  font-weight: 400;
+  font-family: 'Archivo', sans-serif;
   align-items: center;
   justify-content: space-between;
   padding: 25px 15px 24px 15px;
-  font-size: 14px;
+  font-size: 15px;
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
@@ -538,8 +541,22 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   padding: 10px 28px;
   transition: 0.5s;
+  border-radius: 100px;
   border: 2px solid #fff;
   color: #fff;
+}
+.contactme{
+  padding: 100px;
+  margin-left: 30%;
+  width: 90%;
+  height: 100%;
+
+}
+@media (max-width: 768px) {
+  .contactme {
+    padding: 10px;
+    margin-left: 10px;
+  }
 }
 
 #hero .btn-get-started:hover {
@@ -569,6 +586,13 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
+}
+#about .container {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 20px;
+}
+#about h4{
+  font-family: 'Merienda', cursive;
 }
 
 /*--------------------------------------------------------------
