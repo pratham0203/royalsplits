@@ -860,7 +860,9 @@ section {
 .services .icon-box h4 {
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 24px;
+  font-size: 30px;
+  font-family: 'Caveat', cursive;
+  text-transform: capitalize;
 }
 
 .services .icon-box h4 a {
