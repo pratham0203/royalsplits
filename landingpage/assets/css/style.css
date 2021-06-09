@@ -702,9 +702,8 @@ section {
 }
 
 .why-us .box h4 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 50;
-  padding: 10;
   margin: 20px 0;
   color: #c9c0c0;
 }
@@ -805,6 +804,7 @@ section {
   margin-left: 10px;
   padding: 5px 5px;
 }
+
 .thumb img{
   padding: 1px;
   border-radius: 4px; 
@@ -820,8 +820,19 @@ section {
   border-radius: 4px; 
   height: 125px; 
   width: 125px;
+  
 }
 .thumbfooter img:hover {
+  border: 2px solid rgb(94, 79, 224);
+  background-color: white; 
+  font-size: 400;
+}
+.otherfoot img{
+  padding: 1px;
+  border-radius: 4px;   
+  margin-top: 40px;
+}
+.otherfoot img:hover {
   border: 2px solid rgb(94, 79, 224);
   background-color: white; 
   font-size: 400;
@@ -1334,6 +1345,12 @@ section {
 --------------------------------------------------------------*/
 #footer {
   background: #0c0c0c;
+  background-image: url("/landingpage/assets/img/Product/PRODUCT/description/tobacoo\ substitutes.png") ;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
